@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C6699D428F498D600D28CF3 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6699D328F498D600D28CF3 /* AddTaskViewController.swift */; };
 		5CCFFF0A28F4935100E19A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFFF0928F4935100E19A9A /* AppDelegate.swift */; };
 		5CCFFF0C28F4935100E19A9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFFF0B28F4935100E19A9A /* SceneDelegate.swift */; };
 		5CCFFF1128F4935100E19A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCFFF0F28F4935100E19A9A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C6699D328F498D600D28CF3 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		5CCFFF0628F4935100E19A9A /* GoodList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCFFF0928F4935100E19A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CCFFF0B28F4935100E19A9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				5CCFFF1E28F4939A00E19A9A /* TaskListViewController.swift */,
+				5C6699D328F498D600D28CF3 /* AddTaskViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CCFFF0A28F4935100E19A9A /* AppDelegate.swift in Sources */,
+				5C6699D428F498D600D28CF3 /* AddTaskViewController.swift in Sources */,
 				5CCFFF0C28F4935100E19A9A /* SceneDelegate.swift in Sources */,
 				5CCFFF1F28F4939A00E19A9A /* TaskListViewController.swift in Sources */,
 			);
